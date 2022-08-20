@@ -1,0 +1,303 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Just Eat</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <nav class="sec-nav mobile-hidden">
+      <img class="icon-nav" src="./assets/icons/hambuger.svg" alt="" />
+      <a href="#">
+        <img src="./assets/misc/logo-white.svg" alt="" />
+      </a>
+      <img src="./assets/icons/" alt="" class="icon-nav" />
+      <div class="container-nav-icons">
+        <img src="./assets/icons/filter.svg" alt="" class="icon-nav" />
+        <img src="./assets/icons/bars.svg" alt="" />
+      </div>
+    </nav>
+    <nav class="desktop-nav desktop-hidden">
+      <a href="#">
+        <img src="./assets/misc/logo-orange.svg" alt="" />
+      </a>
+      <div class="user-container">
+        <img src="./assets/icons/user-icon.svg" alt="" class="icon-nav" />
+        <span>Pedro</span>
+        <span>Ayuda</span>
+      </div>
+    </nav>
+
+    <section class="sec-search-mobile mobile-hidden">
+      <div class="search">
+        <img
+          class="search-icon"
+          src="assets/icons/search-icon.svg"
+          alt="search-icon"
+        />
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Buscar restaurante o cocina"
+        />
+      </div>
+    </section>
+    <main class="main">
+      <section class="sec-promotions">
+        <div class="promotion-card">
+          <img
+            src="/assets/promotions/promotion-promos-locas.png"
+            alt="imagen"
+          />
+          <p class="text-promos">Promo marcas</p>
+        </div>
+        <div class="promotion-card">
+          <img
+            src="./assets/promotions/promotions-alimentacion.png"
+            alt="imagen"
+          />
+          <p class="text-promos">Alimentación</p>
+        </div>
+        <div class="promotion-card">
+          <img
+            src="./assets/promotions/promotion-alta-cocina.png"
+            alt="imagen"
+          />
+          <p class="text-promos">Alta cocina</p>
+        </div>
+        <div class="promotion-card">
+          <img src="./assets/promotions/promotion-poke.png" alt="imagen" />
+          <p class="text-promos">Poké</p>
+        </div>
+        <div class="promotion-card">
+          <img src="./assets/promotions/promotion-sushi.png" alt="imagen" />
+          <p class="text-promos">Sushi</p>
+        </div>
+        <div class="promotion-card">
+          <img src="./assets/promotions/promotion-japo.png" alt="imagen" />
+          <p class="text-promos">Japonesa</p>
+        </div>
+        <div class="promotion-card">
+          <img src="./assets/promotions/mexican.png" alt="imagen" />
+          <p class="text-promos">Mexican</p>
+        </div>
+        <div class="promotion-card">
+          <img src="./assets/promotions/Rectangle 2-1.png" alt="imagen" />
+          <p class="text-promos">Sin gluten</p>
+        </div>
+      </section>
+
+      <section class="grid-container">
+        <section class="sec-localization">
+          <div class="localization">
+            <img
+              class="icon-localization"
+              src="./assets/icons/map-icon.svg"
+              alt=""
+            />
+            <div class="address-text">
+              <span class="text-localization"
+                >Calle Prueba, 35019, Las Palmas de Gran Canaria
+              </span>
+              <a class="text-localization" href="#">cambiar dirección</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec-search desktop-hidden">
+          <div class="searcher">
+            <div class="search">
+              <img
+                class="search-bar__icon"
+                src="assets/icons/search-icon.svg"
+                alt="search-icon"
+              />
+              <input
+                type="text"
+                class="search-input"
+                placeholder="Buscar restaurante o cocina"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="sec-sidebar">
+          <div class="food-filter-container desktop-hidden">
+            <div class="sidebar-title">
+              <img
+                height="15px"
+                src="./assets/icons/category-hexagon.svg"
+                alt=""
+              />
+              <h3 class="title">Categorías A-Z</h3>
+            </div>
+            <div class="food-filter">
+              <span>Africana</span>
+              <span>1</span>
+            </div>
+            <div class="food-filter">
+              <span>Alimentación</span>
+              <span>3</span>
+            </div>
+            <div class="food-filter">
+              <span>Alta cocina</span>
+              <span>5</span>
+            </div>
+            <div class="food-filter">
+              <span>Americana</span>
+              <span>45</span>
+            </div>
+            <div class="food-filter">
+              <span>Andaluza</span>
+              <span>1</span>
+            </div>
+            <div class="food-filter">
+              <span>Árabe</span>
+              <span>3</span>
+            </div>
+            <div class="food-filter">
+              <span>Argentina</span>
+              <span>8</span>
+            </div>
+            <div class="food-filter">
+              <span>BBQ</span>
+              <span>2</span>
+            </div>
+            <div class="food-filter">
+              <span>Bocadillos/Wraps</span>
+              <span>8</span>
+            </div>
+            <div class="food-filter">
+              <span>Casera</span>
+              <span>29</span>
+            </div>
+            <div class="food-filter">
+              <span>China</span>
+              <span>12</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec-restaurants">
+          <div class="open-restaurants">
+            <img src="./assets/icons/info.svg" alt="" />
+            <span class="text-restaurants">193 restaurantes abiertos</span>
+          </div>
+
+          <div class="card-restaurant">
+            <img
+              class="restaurant-logo"
+              src="./assets/restaurants/sushi_ichiban/logo.gif"
+              alt=""
+            />
+            <img
+              class="img-restaurant"
+              src="./assets/restaurants/sushi_ichiban/Rectangle 3.png"
+              alt=""
+            />
+            <div class="description-restaurant">
+              <a class="restaurant-title">Sushi Ichiban</a>
+              <img src="./assets/icons/star.svg" alt="icono estrella naranja" />
+              <span class="">5.50 </span
+              ><span class="light-text">/6 (191)</span>
+              <span class="light-text">Japonesa - Sushi</span>
+
+              <div class="description">
+                <img src="./assets/icons/clock-icon.svg" alt="" />
+                <span class="green-text">30 - 35 min.</span>
+                <span class="medium-text">Entrega gratis</span>
+                <span class="medium-text">Pedido mínimo 12€</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-restaurant">
+            <img
+              class="restaurant-logo"
+              src="./assets/restaurants/oh_que_bueno/logo.gif"
+              alt=""
+            />
+            <img
+              class="img-restaurant"
+              src="./assets/restaurants/oh_que_bueno/oh.png"
+              alt=""
+            />
+
+            <div class="description-restaurant">
+              <a class="restaurant-title">Oh! Qué bueno</a>
+              <img src="./assets/icons/star.svg" alt="icono estrella naranja" />
+              <span class="">5.00 </span
+              ><span class="light-text">/6 (371)</span>
+              <span class="light-text">Hamburguesas - Venezolana</span>
+
+              <div class="description">
+                <img src="./assets/icons/clock-icon.svg" alt="" />
+                <span class="green-text">40 - 45 min.</span>
+                <span class="medium-text">Entrega desde 2.65€</span>
+                <span class="medium-text">Sin pedido mínimo</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-restaurant">
+            <img
+              class="restaurant-logo"
+              src="./assets/restaurants/coki/logo.gif"
+              alt=""
+            />
+            <img
+              class="img-restaurant"
+              src="./assets/restaurants/coki/Rectangle 3-2.png"
+              alt=""
+            />
+
+            <div class="description-restaurant">
+              <a class="restaurant-title">Cokí Mesa y López</a>
+              <img src="./assets/icons/star.svg" alt="" />
+              <span class="">5.00 </span>
+              <span class="light-text">/6 (371)</span>
+              <span class="light-text">Sana - Sin gluten</span>
+
+              <div class="description">
+                <img src="./assets/icons/clock-icon.svg" alt="" />
+                <span class="green-text">30 - 35 min.</span>
+                <span class="medium-text">Entrega GRATIS</span>
+                <span class="medium-text">Sin pedido mínimo</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-restaurant">
+            <img
+              class="restaurant-logo"
+              src="./assets/restaurants/subway/logo.gif"
+              alt=""
+            />
+            <img
+              class="img-restaurant"
+              src="./assets/restaurants/subway/subway.png"
+              alt=""
+            />
+            <div class="description-restaurant">
+              <a href="#" class="restaurant-title">Subway</a>
+
+              <img src="./assets/icons/star.svg" alt="" />
+
+              <span class="">5.00 </span>
+              <span class="light-text">/6 (371)</span>
+              <span class="light-text">Hamburguesas - Venezolana</span>
+
+              <div class="description">
+                <img src="./assets/icons/clock-icon.svg" alt="" />
+                <span class="green-text">30 - 35 min.</span>
+                <span class="medium-text">Entrega desde 2.65€</span>
+                <span class="medium-text">Sin pedido mínimo</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

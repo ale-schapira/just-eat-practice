@@ -1,0 +1,57 @@
+/* Colors */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+$primaryColor: #ff8000;
+$secondaryColor: #ffff;
+
+// Icons
+
+.restaurant-title{
+    font-size: 1em;
+    color: black;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+
+// TEXTS
+
+//Localization text
+
+.green-text {
+  font-weight: 700;
+  font-size: 0.9em;
+  line-height: 1.063em;
+  color: #017a39;
+  margin-right: 0.8em;
+}
+
+.light-text {
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 1.063em;
+  color: rgba(36, 46, 48, 0.8);
+  margin-right: 0.875em;
+}
+
+.medium-text {
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 1.063em;
+  color: rgba(36, 46, 48, 0.8);
+  margin-left: 0.875em;
+}
+.text-restaurants{
+    color: #242E30;
+    font-weight: 400;
+    line-height: 19px;
+    font-size: 20px;
+}
+.restaurant-logo{
+position: relative;
+width: 49px;
+height: 49px;
+left: 20px;
+top: 70px;
+border: 1px solid #FFFDFD;
+border-radius: 5px;
+}
